@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!--Global Container-->
+    <div class="flex items-center justify-center min-h-screen bg-cyan-100">
+        
+        <!--Card Container-->
+        <div class="bg-white p-6 m-3 rounded-3xl md:row md:p-40 shadow-2xl">
+            
+                <!--Menu Container-->
+                <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:justify-end md:space-x-5 md:mb-24">
+                    
+                    <!--Menu Items-->
+                    <div class="group">
+                        <a href="#">Vetores</a>
+                        <div class="mt-1 my-1 border-black border-b-2 opacity-0 duration-300 group-hover:opacity-100"></div>
+                    </div>
+                    <div class="group">
+                        <a href="#">Ilustração</a>
+                        <div class="mt-1 my-1 border-black border-b-2 opacity-0 duration-300 group-hover:opacity-100"></div>
+                    </div>
+                    <div class="group">
+                        <a href="#">Imagens</a>
+                        <div class="mt-1 my-1 border-black border-b-2 opacity-0 duration-300 group-hover:opacity-100"></div>
+                    </div>
+                    <div class="group">
+                        <a href="#">Ícones</a>
+                        <div class="mt-1 my-1 border-black border-b-2 opacity-0 duration-300 group-hover:opacity-100"></div>
+                    </div>
+                </div>
+                
+                <!--Search-->
+                <div class="flex flex-col justify-between space-y-5 md:flex-row pb-6">
+
+                    <!--Input-->
+                    <div class="flex justify-between border-b">
+                        <input typer="text" placeholder="Buscar" class="border-none ml-6 focus:outline-none md:w-80"/>
+                    </div>
+
+                    <!--Button-->
+                    <button class="bg-black text-white border p-14 border-black hover:bg-white hover:text-black rounded-lg py-3 duration-300">Carregar</button>
+                </div>
+                
+
+
+                <!--Photos-->
+                <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                    <img src="images/image1.jpg" class="w-72 mb-2"/>
+                    <img src="images/image2.jpg" class="w-72 mb-2"/>
+                    <img src="images/image3.jpg" class="w-72 mb-2"/>
+                    <img src="images/image4.jpg" class="w-72 mb-2"/>
+                    <img src="images/image5.jpg" class="w-72 mb-2"/>
+                    <img src="images/image6.jpg" class="w-72 mb-2"/>   
+                </div>   
+        </div>
+    </div>
+
+</body>
+</html>
